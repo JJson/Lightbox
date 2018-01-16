@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/hyperoslo/Lightbox"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
-  s.source           = { :git => "https://github.com/hyperoslo/Lightbox.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/JJson/Lightbox.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/hyperoslo'
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.resource = 'Resources/Lightbox.bundle'
 
   s.frameworks = 'UIKit', 'AVFoundation', 'AVKit'
-  s.dependency 'Hue', '~> 3.0.1.JJSon'
+  s.dependency 'Hue', '~> 3.0.1.1.JJSon'
   s.dependency 'Imaginary', '~> 3.0'
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
